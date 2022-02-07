@@ -91,3 +91,31 @@ hr {
   width: 5%;
   padding-bottom: 20px;
 }
+
+.get-in-touch {
+  margin-left: 5%;
+}
+
+.web-icons {
+  background-color: #43969b;
+  padding: 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.a-tags {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+  color: burlywood;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+a:hover {
+  color: #ece9e3;
+}
