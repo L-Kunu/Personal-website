@@ -9,47 +9,43 @@
   </head>
   <body>
     <header>
-      <nav cellspacing="20">
-        <a href="#contact">Contact</a>
-        <a href="#Skills">My Skills Set</a>
-        <a href="#biographyt">About Me</a>
-        <a href="#CV">Curriculum Vitae</a>
+      <nav class="navigation">
+        <a class="button" href="#home">Home</a>
+        <a class="button" href="#biography">About me</a>
+        <a class="button" href="#CV">Curriculum Vitae</a>
+        <a class="button" href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
-      <table cellspacing="20">
-        <tr>
-          <td>
-            <img
-              src="images/profilePic.png"
-              width="400"
-              height="400"
-              alt="Lillian Kunu Online Makrketing Manager and Web Developer"
-            />
-          </td>
-          <td>
-            <h1>Lillian Kunu</h1>
-            <p class="om">
-              <em><strong>Online Marketing Manager</strong></em>
-            </p>
-            <p class="om">
-              <em><strong>Web Developer</strong></em>
-            </p>
-            <p>
-              I am an Online Marketing Manager <br />
-              I offer E-Commerce Services to Online Businesses <br />
-              and I´m currently studying Software Development at Neue Fische
-            </p>
-          </td>
-        </tr>
-      </table>
-      <section id="contact">
-        Contact
-        <address>
-          <a href="mailto:techtrive01@gmail.com">techtrive01@gmail.com</a><br />
-          <a href="tel:+13115552368">(311) 555-2368</a>
-        </address>
+      <section id="home">
+        <table cellspacing="20">
+          <tr>
+            <td>
+              <img
+                class="profile-pic"
+                src="images/profilePic.png"
+                width="450"
+                height="450"
+                alt="Lillian Kunu Online Makrketing Manager and Web Developer"
+              />
+            </td>
+            <td>
+              <h1>Lillian Kunu</h1>
+              <p class="om">
+                <em><strong>Online Marketing Manager</strong></em>
+              </p>
+              <p class="om">
+                <em><strong>Web Developer</strong></em>
+              </p>
+              <p class="intro">
+                I am an Online Marketing Manager I offer E-Commerce Services to
+                Online Businesses and I´m currently studying Software
+                Development at Neue Fische.
+              </p>
+            </td>
+          </tr>
+        </table>
       </section>
       <hr />
       <section>
@@ -63,17 +59,94 @@
           <li>PHP</li>
         </ul>
       </section>
+
       <hr />
+
       <section>
         <a id="biography"></a>
         <h3>About Me</h3>
-        <p>
-          I wasn´t alsways a tech enthusiast, but that changed in 2017 when I
-          was offered a job at
-        </p>
+        <article class="about-me">
+          <p>
+            I wasn´t alsways a tech enthusiast, but that changed in 2017 when I
+            was offered a job at an Online Shop as an office assistant. Shortly
+            into the job my boss discovered my talent for details and creativity
+            and so she gave me the free hand to express it and soon I was doing
+            the job of an Online Marketing Manager without realising it.
+          </p>
+
+          <p>
+            I discovered the vast possibilities embedded in the cyber space and
+            I didn´t need to be an expert to realise that, that is where the
+            future lies and there I promissed myself that I was going to get
+            deeper into it than just what I knew back then. <br />
+            The first opportunity presented itself in 2019 where I was offered a
+            placement at WBS to hone my softskills. It was a six months
+            intensive Business Administration course and two of those were
+            dedicated to MS Office. And as a follow up, I did another six months
+            intensive online marketing course at the same institution in 2020
+            where I trained to become an Online Marketing Manager.
+          </p>
+
+          <p>
+            But I didn´t stop there. I embarked on a self-learning journey to
+            becoming a programmer in 2021 while at the same time working as a
+            sales rep at an insurance firm. I liked my job, but it wasn´t what I
+            really wanted, so the firm and I agreed to end our working
+            relationship and in January I applied for the Web Development course
+            at Neue Fische, which is where I currently am, and I was delighted
+            to be accepted to this course that is bound to open many prospects,
+            because my aim is to become a Java Developer, and I hope that I´ll
+            also get an admission to the Java Development course in this same
+            institution after this one.
+          </p>
+        </article>
       </section>
+
       <hr />
-      <section id="CV">Curriculum Vitae</section>
+
+      <section id="CV">
+        <h3>Curriculum Vitae</h3>
+        <table cellspacing="10">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Work and professional training</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2017</td>
+              <td>Curly Chocolate GmbH</td>
+            </tr>
+            <tr>
+              <td>2018 - 2019</td>
+              <td>Independent Translator</td>
+            </tr>
+            <tr>
+              <td>06/ - 12/ 2019</td>
+              <td>Office Management course at WBS</td>
+            </tr>
+            <tr>
+              <td>06/ - 12/ 2020</td>
+              <td>Online Marketing Course at WBS</td>
+            </tr>
+            <tr>
+              <td>04/ - 12/ 2021</td>
+              <td>Sales Rep at Barmenia insurance Company</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <hr />
+
+      <section id="contact">
+        <h3>Get in touch</h3>
+        <address>
+          <a href="mailto:techtrive01@gmail.com">techtrive01@gmail.com</a><br />
+          <a href="tel:+13115552368">(311) 555-2368</a>
+        </address>
+      </section>
     </main>
   </body>
 </html>
