@@ -1,34 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&family=Ubuntu:wght@500&display=swap");
 
-body {
-  background-color: #fbf8f1;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-main {
-  margin-left: 5%;
-}
-
-html {
-  height: 100%;
-}
-
-.navigation {
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: flex-end;
-  width: 100%;
-}
+@import "components/border-box.css";
+@import "base.css";
 
 .button {
   text-decoration: none;
@@ -38,14 +11,6 @@ html {
   color: burlywood;
   padding: 10px;
   border-radius: 15px;
-}
-
-table {
-}
-
-.profile-pic {
-  /* height: 60%;
-  width: 60%;*/
 }
 
 h1 {
