@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto&family=Ubuntu:wght@500&display=swap");
+
+body {
+  background-color: #fbf8f1;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+main {
+  margin-left: 5%;
+}
